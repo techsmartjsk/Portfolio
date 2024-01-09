@@ -48,22 +48,22 @@ export default function Navbar() {
             onClick={toggleMenu}
           >
             <div
-              className={`bg-${
-                menuOpen ? 'white' : 'black'
+              className={`${
+                menuOpen ? 'bg-white' : 'bg-black'
               } h-[2px] w-8 mb-1.5 transform ${
                 menuOpen ? 'rotate-45 translate-y-2 delay-100' : 'translate-x-0'
               } transition-all ease-in-out`}
             ></div>
             <div
-              className={`bg-${
-                menuOpen ? 'white' : 'black'
+              className={`${
+                menuOpen ? 'bg-white' : 'bg-black'
               } h-[2px] w-6 mb-1.5 opacity-0 ${
                 menuOpen ? 'opacity-0' : 'opacity-100 delay-100'
               } transition-all ease-in-out`}
             ></div>
             <div
-              className={`bg-${
-                menuOpen ? 'white' : 'black'
+              className={`${
+                menuOpen ? 'bg-white' : 'bg-black'
               } h-[2px] w-8 mb-1.5 transform ${
                 menuOpen
                   ? '-rotate-45 -translate-y-2 delay-100'
