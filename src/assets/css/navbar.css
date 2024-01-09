@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+.drawer {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background-color: black;
+  height: 100%;
+  width: 75%;
+  transition: right 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drawer.open {
+  right: 0;
+}
