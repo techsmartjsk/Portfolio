@@ -4,7 +4,7 @@ export default function Hero() {
       id='hero'
       className='mx-10 my-20 lg:mb-[300px] lg:mx-32 flex flex-col gap-10 lg:gap-[30px] z-10'
     >
-      <p className='text-md'>Hi, I am</p>
+      <p className='text-xl'>Hi, I am</p>
       <div className='flex flex-col gap-2'>
         <h1 className='text-3xl lg:text-6xl font-bold'>Jaskirat Singh</h1>
         <h2 className='text-3xl lg:text-6xl font-bold'>
