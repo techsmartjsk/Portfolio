@@ -8,6 +8,11 @@ body {
   background-color: #101c2c !important;
 }
 
+body, html {
+  overflow-x: hidden !important;
+  position: relative;
+}
+
 .experience-info ul li::before {
   content: '▹';
   position: relative; /* Change from absolute to relative */
