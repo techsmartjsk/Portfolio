@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 export default function ContactButtons() {
   return (
-    <div className='hidden lg:block fixed bottom-0 left-0 w-full px-20'>
+    <div className='hidden lg:block fixed bottom-0 left-0 w-full px-10'>
       <div className='flex justify-between items-center'>
         <div className='flex flex-col items-center gap-5'>
           <div className='flex flex-col gap-10 justify-center'>

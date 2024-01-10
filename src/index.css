@@ -7,3 +7,12 @@ body {
   overflow-x: hidden !important;
   background-color: #101c2c !important;
 }
+
+
+.experience-info ul li::before {
+  content: "▹";
+  position: relative; /* Change from absolute to relative */
+  left: -10px; /* Adjust the left offset as needed */
+  color: #64ffda;
+  margin-right: 5px; /* Optional: Add some space between the arrow and text */
+}
