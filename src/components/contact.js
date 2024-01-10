@@ -10,7 +10,7 @@ export default function Contact() {
       <h3 className='text-center font-bold text-4xl text-white'>
         Get In Touch
       </h3>
-      <div className='w-1/2 mx-auto'>
+      <div className='lg:w-1/2 mx-auto'>
         <p className='text-gray-300 text-center'>
           I'm actively seeking new opportunities and would love to connect with
           like-minded individuals. If you have exciting projects, collaboration

@@ -56,7 +56,7 @@ export default function Projects() {
         </h2>
         <div className='hidden lg:block lg:w-64 bg-white h-[1px]'></div>
       </div>
-      <div className='flex flex-col gap-20'>
+      <div className='hidden lg:flex lg:flex-col lg:gap-20'>
         {projects.map((project) => {
           const isEven = project.id % 2 === 0
           return (
@@ -90,7 +90,7 @@ export default function Projects() {
                     {project.title}
                   </h4>
                 </div>
-                <div className='text-gray-300'>{project.description}</div>
+                <p className='text-gray-300'>{project.description}</p>
                 <div
                   className={`flex gap-2 text-gray-300 ${
                     isEven ? '' : 'ml-auto'
@@ -112,6 +112,31 @@ export default function Projects() {
                     <IoMdLink color='white' fontSize={25} />
                   </a>
                 </div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+      <div className='flex flex-col gap-10 md:hidden lg:hidden'>
+        {projects.map((project) => {
+          return (
+            <div className='rounded-md p-4 h-[400px] border-[1px] border-[#64ffda] flex flex-col gap-10'>
+              <div className='flex flex-col gap-2'>
+                <h4 className='text-[#64ffda] text-sm'>Featured Project</h4>
+                <h2 className='text-2xl text-white'>{project.title}</h2>
+              </div>
+              <p className='text-gray-300'>{project.description}</p>
+              <div className='flex gap-2'>
+                <a href={project.github}>
+                  <FaGithub
+                    color='white'
+                    fontSize={25}
+                    className='hover:color-[#64ffda] cursor-pointer'
+                  />
+                </a>
+                <a href={project.app}>
+                  <IoMdLink color='white' fontSize={25} />
+                </a>
               </div>
             </div>
           )
