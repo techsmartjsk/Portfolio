@@ -6,7 +6,7 @@ export default function Experience() {
     >
       <div className='flex gap-10 items-center'>
         <h2 className='text-2xl font-bold text-white'>
-          <span className='text-[#64ffda]'>02.</span> Where I've Worked
+          <span className='text-[#64ffda] numbered'>02.</span> Where I've Worked
         </h2>
         <div className='hidden lg:block lg:w-64 bg-white h-[1px]'></div>
       </div>

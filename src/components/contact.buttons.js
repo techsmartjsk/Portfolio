@@ -33,7 +33,7 @@ export default function ContactButtons() {
               <FaMedium color='white' fontSize={20} />
             </a>
           </div>
-          <div className='border-l-2 border-white h-[200px]'></div>
+          <div className='border-l-2 border-white h-[100px]'></div>
         </div>
         <div className='flex flex-col items-center gap-5'>
           <a
@@ -43,7 +43,7 @@ export default function ContactButtons() {
           >
             techsmartjsk@gmail.com
           </a>
-          <div className='border-l-2 border-white h-[200px]'></div>
+          <div className='border-l-2 border-white h-[100px]'></div>
         </div>
       </div>
     </div>

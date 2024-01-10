@@ -16,7 +16,7 @@ export default function About() {
     >
       <div className='flex gap-10 items-center'>
         <h2 className='text-2xl font-bold text-white'>
-          <span className='text-[#64ffda]'>01.</span> About Me
+          <span className='text-[#64ffda] numbered'>01.</span> About Me
         </h2>
         <div className='hidden lg:block lg:w-64 bg-white h-[1px]'></div>
       </div>

@@ -75,16 +75,16 @@ export default function Navbar() {
         <div className='hidden lg:flex lg:gap-10 lg:items-center'>
           {/* Your navigation links */}
           <a href='#about' className='text-sm text-white'>
-            <span className='text-[#64ffda]'>01.</span> About
+            <span className='text-[#64ffda] numbered'>01.</span> About
           </a>
           <a href='#experience' className='text-sm text-white'>
-            <span className='text-[#64ffda]'>02.</span> Experience
+            <span className='text-[#64ffda] numbered'>02.</span> Experience
           </a>
           <a href='#projects' className='text-sm text-white'>
-            <span className='text-[#64ffda]'>03.</span> Projects
+            <span className='text-[#64ffda] numbered'>03.</span> Projects
           </a>
           <a href='#contact' className='text-sm text-white'>
-            <span className='text-[#64ffda]'>04.</span> Contact
+            <span className='text-[#64ffda] numbered'>04.</span> Contact
           </a>
           <a
             href='#contact'

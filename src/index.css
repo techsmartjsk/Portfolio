@@ -15,3 +15,7 @@ body {
   color: #64ffda;
   margin-right: 5px; /* Optional: Add some space between the arrow and text */
 }
+
+.numbered {
+  font-family: 'Montserrat', sans-serif;
+}
