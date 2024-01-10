@@ -49,21 +49,21 @@ export default function Navbar() {
           >
             <div
               className={`${
-                menuOpen ? 'bg-white' : 'bg-black'
+                menuOpen ? 'bg-[#101c2c]' : 'bg-white'
               } h-[2px] w-8 mb-1.5 transform ${
                 menuOpen ? 'rotate-45 translate-y-2 delay-100' : 'translate-x-0'
               } transition-all ease-in-out`}
             ></div>
             <div
               className={`${
-                menuOpen ? 'bg-white' : 'bg-black'
+                menuOpen ? 'bg-[#101c2c]' : 'bg-white'
               } h-[2px] w-6 mb-1.5 opacity-0 ${
                 menuOpen ? 'opacity-0' : 'opacity-100 delay-100'
               } transition-all ease-in-out`}
             ></div>
             <div
               className={`${
-                menuOpen ? 'bg-white' : 'bg-black'
+                menuOpen ? 'bg-[#101c2c]' : 'bg-white'
               } h-[2px] w-8 mb-1.5 transform ${
                 menuOpen
                   ? '-rotate-45 -translate-y-2 delay-100'
@@ -74,17 +74,20 @@ export default function Navbar() {
         </div>
         <div className='hidden lg:flex lg:gap-10'>
           {/* Your navigation links */}
-          <a href='#about' className='text-lg'>
-            01. About
+          <a href='#about' className='text-lg text-white'>
+            <span className='text-[]'>01.</span> About
           </a>
-          <a href='#experience' className='text-lg'>
+          <a href='#experience' className='text-lg text-white'>
             02. Experience
           </a>
-          <a href='#projects' className='text-lg'>
+          <a href='#projects' className='text-lg text-white'>
             03. Projects
           </a>
-          <a href='#contact' className='text-lg'>
+          <a href='#contact' className='text-lg text-white'>
             04. Contact
+          </a>
+          <a href='#contact' className='border-[]'>
+            Resume
           </a>
         </div>
       </div>
@@ -92,16 +95,16 @@ export default function Navbar() {
       {/* Drawer */}
       <div className={`drawer px-10 py-20 ${menuOpen ? 'open' : ''}`}>
         {/* Drawer Items */}
-        <a href='#about' className='text-white text-lg block mb-4'>
+        <a href='#about' className='text-[#101c2c] text-lg block mb-4'>
           01. About
         </a>
-        <a href='#experience' className='text-white text-lg block mb-4'>
+        <a href='#experience' className='text-[#101c2c] text-lg block mb-4'>
           02. Experience
         </a>
-        <a href='#projects' className='text-white text-lg block mb-4'>
+        <a href='#projects' className='text-[#101c2c] text-lg block mb-4'>
           03. Projects
         </a>
-        <a href='#contact' className='text-white text-lg block mb-4'>
+        <a href='#contact' className='text-[#101c2c] text-lg block mb-4'>
           04. Contact
         </a>
       </div>

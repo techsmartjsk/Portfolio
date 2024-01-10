@@ -4,7 +4,7 @@
   position: absolute;
   top: 0;
   right: -100%;
-  background-color: black;
+  background-color: white;
   height: 100%;
   width: 75%;
   transition: right 0.3s ease;
