@@ -8,9 +8,8 @@ body {
   background-color: #101c2c !important;
 }
 
-
 .experience-info ul li::before {
-  content: "▹";
+  content: '▹';
   position: relative; /* Change from absolute to relative */
   left: -10px; /* Adjust the left offset as needed */
   color: #64ffda;

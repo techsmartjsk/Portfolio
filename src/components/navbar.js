@@ -72,21 +72,24 @@ export default function Navbar() {
             ></div>
           </div>
         </div>
-        <div className='hidden lg:flex lg:gap-10'>
+        <div className='hidden lg:flex lg:gap-10 lg:items-center'>
           {/* Your navigation links */}
-          <a href='#about' className='text-lg text-white'>
-            <span className='text-[]'>01.</span> About
+          <a href='#about' className='text-sm text-white'>
+            <span className='text-[#64ffda]'>01.</span> About
           </a>
-          <a href='#experience' className='text-lg text-white'>
-            02. Experience
+          <a href='#experience' className='text-sm text-white'>
+            <span className='text-[#64ffda]'>02.</span> Experience
           </a>
-          <a href='#projects' className='text-lg text-white'>
-            03. Projects
+          <a href='#projects' className='text-sm text-white'>
+            <span className='text-[#64ffda]'>03.</span> Projects
           </a>
-          <a href='#contact' className='text-lg text-white'>
-            04. Contact
+          <a href='#contact' className='text-sm text-white'>
+            <span className='text-[#64ffda]'>04.</span> Contact
           </a>
-          <a href='#contact' className='border-[]'>
+          <a
+            href='#contact'
+            className='border-[#64ffda] border-[1px] hover:border-r-[5px] hover:border-b-[5px] transition-all duration-200 rounded-md px-5 py-2 text-sm text-[#64ffda]'
+          >
             Resume
           </a>
         </div>
