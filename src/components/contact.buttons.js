@@ -3,9 +3,8 @@ import { FaGithub, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 export default function ContactButtons() {
   return (
-    <div className='hidden lg:block fixed bottom-0 left-0 w-full px-10'>
-      <div className='flex justify-between items-center'>
-        <div className='flex flex-col items-center gap-5'>
+    <div className='w-full px-10'>
+      <div  aria-orientation='left' className='hidden lg:flex lg:flex-col items-center gap-5 fixed bottom-0 left-[40px] right-auto '>
           <div className='flex flex-col gap-10 justify-center'>
             <a
               className='transform transition-all duration-300 hover:translate-y-[-5px]'
@@ -35,7 +34,7 @@ export default function ContactButtons() {
           </div>
           <div className='border-l-2 border-white h-[100px]'></div>
         </div>
-        <div className='flex flex-col items-center gap-5'>
+        <div aria-orientation='right' className='hidden lg:flex lg:flex-col items-center gap-5 fixed bottom-0 left-auto right-[40px]'>
           <a
             href='mailto:techsmartjsk@gmail.com'
             className='transform transition-all duration-300 hover:translate-y-[-10px] text-white'
@@ -45,7 +44,6 @@ export default function ContactButtons() {
           </a>
           <div className='border-l-2 border-white h-[100px]'></div>
         </div>
-      </div>
     </div>
   )
 }
