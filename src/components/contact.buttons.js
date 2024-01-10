@@ -7,17 +7,26 @@ export default function ContactButtons() {
       <div className='flex justify-between items-center'>
         <div className='flex flex-col items-center gap-5'>
           <div className='flex flex-col gap-10 justify-center'>
-            <a href='https://linkedin.com/in/techsmartjsk'>
-              <FaLinkedin color='white' fontSize={20} />
-            </a>
+          <a
+  className='transform transition-all duration-300 hover:translate-y-[-5px]'
+  href='https://linkedin.com/in/techsmartjsk'
+>
+  <FaLinkedin color='white' fontSize={20} />
+</a>
 
-            <a href='https://github.com/techsmartjsk'>
+            <a 
+            className='transform transition-all duration-300 hover:translate-y-[-5px]'
+            href='https://github.com/techsmartjsk'>
               <FaGithub color='white' fontSize={20} />
             </a>
-            <a href='https://twitter.com/techsmartjsk'>
+            <a 
+            className='transform transition-all duration-300 hover:translate-y-[-5px]'
+            href='https://twitter.com/techsmartjsk'>
               <FaTwitter color='white' fontSize={20} />
             </a>
-            <a href='https://medium.com/@techsmartjsk'>
+            <a 
+            className='transform transition-all duration-300 hover:translate-y-[-5px]'
+            href='https://medium.com/@techsmartjsk'>
               <FaMedium color='white' fontSize={20} />
             </a>
           </div>
@@ -26,7 +35,7 @@ export default function ContactButtons() {
         <div className='flex flex-col items-center gap-5'>
           <a
             href='mailto:techsmartjsk@gmail.com'
-            className='block text-white'
+            className='transform transition-all duration-300 hover:translate-y-[-10px] text-white'
             style={{ writingMode: 'vertical-rl' }}
           >
             techsmartjsk@gmail.com
