@@ -120,7 +120,7 @@ export default function Projects() {
       <div className='flex flex-col gap-10 md:hidden lg:hidden'>
         {projects.map((project) => {
           return (
-            <div className='rounded-md p-4 h-[400px] border-[1px] border-[#64ffda] flex flex-col gap-10'>
+            <div className='rounded-md p-4 border-[1px] border-[#64ffda] flex flex-col gap-10'>
               <div className='flex flex-col gap-2'>
                 <h4 className='text-[#64ffda] text-sm'>Featured Project</h4>
                 <h2 className='text-2xl text-white'>{project.title}</h2>
